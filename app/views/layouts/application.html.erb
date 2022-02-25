@@ -12,7 +12,15 @@
 
   <body>
     <%= render "layouts/header" %>
+
     <%= link_to t("global.english"), locale: :en %> | <%= link_to t("global.vietnam"), locale: :vi %>
-    <div class="container"><%= yield %></div>
+
+    <div class="container">
+      <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+
+      <%= yield %>
+    </div>
   </body>
 </html>
