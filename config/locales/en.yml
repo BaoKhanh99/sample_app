@@ -26,3 +26,7 @@ en:
     contact: "Contact"
     findme: "Find me in"
     url: "app/views/static_pages/contact.html.erb"
+  user:
+    new:
+      title: "Signup"
+      message: "This will be a signup page for new users."
