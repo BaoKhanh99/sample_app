@@ -17,6 +17,10 @@ en:
     contact: "Contact"
     login: "Login"
     logo: "Sample App"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
   help:
     title: "Help"
     help: "Help"
@@ -41,3 +45,12 @@ en:
     error_messages:
       prefix: "The form contains %{err_suffix}."
       singular: "error"
+  sessions:
+    create:
+      invalid_email_password_combination: "Invalid email or password, please try again."
+    new:
+      title: "Login"
+      password: "Password"
+      login_btn: "Login"
+      new_user: "Do not have an account?"
+      sign_up_now: "Sign up now!"

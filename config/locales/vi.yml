@@ -17,6 +17,10 @@ vi:
     login: "Đăng nhập"
     contact: "Liên hệ"
     logo: "Sample App"
+    account: "Tài khoản"
+    profile: "Thông tin cá nhân"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
   help:
     title: "Trợ giúp"
     help: "Trợ giúp"
@@ -41,3 +45,13 @@ vi:
     error_messages:
       prefix: "Có %{err_suffix} trong biểu mẫu này."
       singular: "lỗi"
+  sessions:
+    create:
+      invalid_email_password_combination: "Sai email hoặc mật khẩu, vui lòng thử lại."
+    new:
+      title: "Đăng nhập"
+      password: "Mật Khẩu"
+      login_btn: "Đăng nhập"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up_now: "Đăng ký ngay!"
+
