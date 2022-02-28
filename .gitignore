@@ -13,7 +13,7 @@
 .browserslistrc
 config/credentials.yml.enc
 test/
-
+log/
 
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml

@@ -1,0 +1,28 @@
+vi:
+  global:
+    title: "Hướng dẫn Ruby on Rails"
+    english: "English"
+    vietnam: "Tiếng Việt"
+  home:
+    welcome: "chào mừng bạn đến với Sample App"
+    content: "Đây là trang chủ hướng dẫn Ruby on Rails."
+    signup: "Đăng ký ngay! "
+    title: "Trang chủ"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+    contact: "Liên hệ"
+    logo: "Sample App"
+  help:
+    title: "Trợ giúp"
+    help: "Trợ giúp"
+    get_help: "Tìm kiếm sự hỗ trợ về Ruby on Rails tại "
+    help_page: "trang web này"
+    tutorial: "Tìm Kiếm sự hỗ trợ về Sample app, xem tại "
+    tutorial_page: "trang web này"
+  contact:
+    title: "Liên hệ"
+    contact: "Liên hệ"
+    findme: "Tìm kiếm tại"
+    url: "app/views/static_pages/contact.html.erb"
