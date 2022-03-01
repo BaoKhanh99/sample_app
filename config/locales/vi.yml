@@ -26,3 +26,7 @@ vi:
     contact: "Liên hệ"
     findme: "Tìm kiếm tại"
     url: "app/views/static_pages/contact.html.erb"
+  user:
+    new:
+      title: "Đăng ký"
+      message: "Đây sẽ là trang đăng ký cho người dùng mới."
