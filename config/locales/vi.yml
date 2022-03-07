@@ -21,6 +21,7 @@ vi:
     profile: "Thông tin cá nhân"
     settings: "Cài đặt"
     logout: "Đăng xuất"
+    users: "Danh sách người dùng"
   help:
     title: "Trợ giúp"
     help: "Trợ giúp"
@@ -41,6 +42,25 @@ vi:
       password: "Mật Khẩu"
       confirm_password: "Xác nhận mật Khẩu"
       btn_create: "Tạo tài khoản"
+    edit:
+      title: "Cập nhật thông tin cá nhân"
+      btn_update: "Lưu thay đổi"
+      image_change: "Thay đổi"
+      header_message: "Cập nhật thông tin của bạn"
+      welcome: "Chào mừng bạn đến đây"
+    update:
+      successful_flash: "Cập nhật thông tin thành công"
+    index:
+      title: "Danh sách người dùng"
+      login: "Vui lòng đăng nhập trước."
+      not_found: "Không tìm thấy người dùng"
+    user:
+      confirm_message: "Bạn đã chắc chắn?"
+      btn_delete: "Xoá người dùng"
+    unauthorized: "Bạn không thể thực hiện điều này"
+    destroy:
+      successful_flash: "Xoá người dùng thành công"
+      failure_flash: "Thất bại"
   shared:
     error_messages:
       prefix: "Có %{err_suffix} trong biểu mẫu này."
@@ -55,3 +75,6 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Lưu đăng nhập trên thiết bị này"
+  will_paginate:
+    previous_label: "Lùi lại"
+    next_label: "Tiếp theo"

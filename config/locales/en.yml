@@ -21,6 +21,7 @@ en:
     profile: "Profile"
     settings: "Settings"
     logout: "Log out"
+    users: "Users"
   help:
     title: "Help"
     help: "Help"
@@ -41,6 +42,25 @@ en:
       password: "Password"
       confirm_password: "Confirm password"
       btn_create: "Create my account"
+    edit:
+      title: "Edit user"
+      btn_update: "Save changes"
+      image_change: "Change"
+      header_message: "Update your profile"
+      welcome: "Welcome come to here"
+    update:
+      successful_flash: "Profile updated"
+    index:
+      title: "All users"
+      login: "Please log in."
+      not_found: "not found user"
+    user:
+      confirm_message: "You sure?"
+      btn_delete: "Delete"
+    unauthorized: "Invalid action"
+    destroy:
+      successful_flash: "User deleted"
+      failure_flash: "Delete fail!"
   shared:
     error_messages:
       prefix: "The form contains %{err_suffix}."
