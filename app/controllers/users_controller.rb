@@ -11,7 +11,7 @@ class UsersController < ApplicationController
     return if @user
 
     flash[:danger] = t "global.flash.not_found"
-    redirect_to root_path
+    redirect_to root_url
   end
 
   def new
@@ -21,9 +21,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t "global.flash.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".activation_flash"
+      redirect_to root_url
     else
       render :new
     end
@@ -66,7 +66,7 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    return if current_user? params[:id]
+    return if current_user?(@user)
 
     flash[:danger] = t ".unauthorized"
     redirect_to root_url
@@ -77,6 +77,6 @@ class UsersController < ApplicationController
     return if @user
 
     flash[:danger] = t ".not_found"
-    redirect_to root_path
+    redirect_to root_url
   end
 end

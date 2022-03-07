@@ -48,6 +48,8 @@ en:
       image_change: "Change"
       header_message: "Update your profile"
       welcome: "Welcome come to here"
+    create:
+      activation_flash: "Please check your email to activate your account."
     update:
       successful_flash: "Profile updated"
     index:
@@ -68,6 +70,7 @@ en:
   sessions:
     create:
       invalid_email_password_combination: "Invalid email or password, please try again."
+      unactivated_flash: "Account not activated. Check your email for the activation link."
     new:
       title: "Login"
       password: "Password"
@@ -75,3 +78,13 @@ en:
       new_user: "Do not have an account?"
       sign_up_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi"
+      body: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate"
+  account_activations:
+    edit:
+      successful_activation: "Account activated!"
+      fails_activation: "Invalid activation link"
