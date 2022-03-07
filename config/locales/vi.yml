@@ -64,6 +64,16 @@ vi:
     destroy:
       successful_flash: "Xoá người dùng thành công"
       failure_flash: "Thất bại"
+    following:
+      title: "Bạn đang theo dõi"
+    followers:
+      title: "Người đang theo dõi bạn"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Không theo dõi nữa"
+    show_follow:
+      profile: "Thông tin cá nhân"
   shared:
     error_messages:
       prefix: "Có %{err_suffix} trong biểu mẫu này."
@@ -73,6 +83,9 @@ vi:
       post_singular: "bài"
     micropost_form:
       content_holder: "Khởi tạo micropost mới..."
+    stats:
+      following: "Bạn đang theo dõi"
+      followers: "Người đang theo dõi bạn"
   sessions:
     create:
       invalid_email_password_combination: "Sai email hoặc mật khẩu, vui lòng thử lại."

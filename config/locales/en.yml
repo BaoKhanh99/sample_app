@@ -64,6 +64,16 @@ en:
     destroy:
       successful_flash: "User deleted"
       failure_flash: "Delete fail!"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      profile: "view my profile"
   shared:
     error_messages:
       prefix: "The form contains %{err_suffix}."
@@ -73,6 +83,9 @@ en:
       post_singular: "micropost"
     micropost_form:
       content_holder: "Compose new micropost..."
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     create:
       invalid_email_password_combination: "Invalid email or password, please try again."

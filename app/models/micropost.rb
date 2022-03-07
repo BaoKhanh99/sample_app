@@ -13,6 +13,8 @@ class Micropost < ApplicationRecord
 
   scope :newest, ->{order(created_at: :desc)}
 
+  scope :feed, -> (id){where user_id: id}
+
   def display_image
     image.variant(resize_to_limit: Settings.range_500)
   end
