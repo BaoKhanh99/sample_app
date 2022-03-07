@@ -4,14 +4,11 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
 
   def index
-    @pagy, @users = pagy(User.all)
+    @pagy, @users = pagy User.all
   end
 
   def show
-    return if @user
-
-    flash[:danger] = t "global.flash.not_found"
-    redirect_to root_url
+    @pagy, @microposts = pagy @user.microposts.newest
   end
 
   def new

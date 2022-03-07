@@ -1,10 +1,9 @@
 class SessionsController < ApplicationController
-  before_action :load_user, only: :create
+  before_action :load_user_by_mail, only: :create
 
   def new; end
 
   def create
-
     password = params[:session][:password]
     return check_activated if @user&.authenticate(password)
 

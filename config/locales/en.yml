@@ -11,6 +11,7 @@ en:
     content: "This is the home page for the Ruby on Rails Tutorial sample application."
     signup: "Sign up now!"
     title: "Home"
+    feed_title: "Micropost feed"
   header:
     home: "Home"
     help: "Help"
@@ -67,6 +68,11 @@ en:
     error_messages:
       prefix: "The form contains %{err_suffix}."
       singular: "error"
+    user_info:
+      view_profile: "View my profile"
+      post_singular: "micropost"
+    micropost_form:
+      content_holder: "Compose new micropost..."
   sessions:
     create:
       invalid_email_password_combination: "Invalid email or password, please try again."
@@ -113,3 +119,17 @@ en:
     new:
       title: "Forgot password"
       submit: "Submit"
+  microposts:
+    invalid_img_type: "must be a valid image format"
+    invalid_img_size: "should be less than 5MB"
+    create:
+      success: "Micropost created"
+      failed: "Can't create micropost"
+    destroy:
+      success: "Micropost deleted"
+      failed: "Something went wrong"
+    micropost:
+      btn: "Delete"
+      delete_confirm: "You sure?"
+      posted_time: "Posted %{time} ago"
+  file_size_exceed: "Maximum file size is 5MB. Please choose a smaller file."
