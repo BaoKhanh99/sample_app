@@ -78,13 +78,38 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Lưu đăng nhập trên thiết bị này"
+      forgot_password: "(Quên mật khẩu)"
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
       greeting: "Xin chào"
       body: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
       activate_link: "Kích hoạt"
+    password_reset:
+      subject: "Thay đổi mật khẩu"
+      instruction: "Nếu muốn đổi mật khẩu thì click vào bên dưới ngay đi ạ"
+      expire_time: "Link này sẽ hết hạn trong %{suffix}"
+      time_singular: "giờ"
+      warning: "Nếu bạn không phải là người đưa ra yêu cầu này thì vui lòng đừng làm gì cả. Mọi thứ vẫn sẽ ổn thôi ạ!"
+      link_title: "Đổi mật khẩu"
   account_activations:
     edit:
-      activation_flash: "Kích hoạt tài khoản thành công!"
+      successful_activation: "Kích hoạt tài khoản thành công!"
       fails_activation: "Đường dẫn kích hoạt không hợp lệ"
+  password_resets:
+    update:
+      error: "không được để trống"
+      success: "Mật khẩu của bạn đã được cập nhật lại!"
+    expired: "Liên kết đã hết hạn"
+    not_found: "Không tìm thấy người dùng"
+    user_invalid: "Người dùng không hợp lệ"
+    invalid_link: "Liên kết không hợp lệ"
+    create:
+      instruction: "Vui lòng kiểm tra email và làm theo hướng dẫn!"
+      not_found: "Không tìm thấy email người dùng"
+    edit:
+      title: "Đổi mật khẩu"
+      submit: "Lưu mật khẩu"
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
