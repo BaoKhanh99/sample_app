@@ -3,6 +3,9 @@ en:
     title: "Ruby on Rails Tutorial Sample App"
     english: "English"
     vietnam: "Tiếng Việt"
+    flash:
+      welcome: "Welcome to the sample app!"
+      not_found: "User not found"
   home:
     welcome: "Welcome to the Sample App"
     content: "This is the home page for the Ruby on Rails Tutorial sample application."
@@ -26,7 +29,15 @@ en:
     contact: "Contact"
     findme: "Find me in"
     url: "app/views/static_pages/contact.html.erb"
-  user:
+  users:
     new:
       title: "Signup"
-      message: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirm password"
+      btn_create: "Create my account"
+  shared:
+    error_messages:
+      prefix: "The form contains %{err_suffix}."
+      singular: "error"
