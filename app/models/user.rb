@@ -7,6 +7,7 @@ class User < ApplicationRecord
   validates :name, presence: true
   validates :email, presence: true, length: {maximum: Settings.digit.digit_255},
     format: {with: VALID_EMAIL_REGEX}
+  validates :password, presence: true, length: {minimum: Settings.digit.digit_6}, allow_nil: true
 
   has_secure_password
 
