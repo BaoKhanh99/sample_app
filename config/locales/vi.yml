@@ -48,6 +48,8 @@ vi:
       image_change: "Thay đổi"
       header_message: "Cập nhật thông tin của bạn"
       welcome: "Chào mừng bạn đến đây"
+    create:
+      activation_flash: "Vui lòng kiểm tra email để kích hoạt tài khoản."
     update:
       successful_flash: "Cập nhật thông tin thành công"
     index:
@@ -68,6 +70,7 @@ vi:
   sessions:
     create:
       invalid_email_password_combination: "Sai email hoặc mật khẩu, vui lòng thử lại."
+      unactivated_flash: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra đường dẫn trong Email của bạn"
     new:
       title: "Đăng nhập"
       password: "Mật Khẩu"
@@ -75,6 +78,13 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Lưu đăng nhập trên thiết bị này"
-  will_paginate:
-    previous_label: "Lùi lại"
-    next_label: "Tiếp theo"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      greeting: "Xin chào"
+      body: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      activate_link: "Kích hoạt"
+  account_activations:
+    edit:
+      activation_flash: "Kích hoạt tài khoản thành công!"
+      fails_activation: "Đường dẫn kích hoạt không hợp lệ"
