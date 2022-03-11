@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
       @user.send_activation_email
       flash[:info] = t ".activation_flash"
@@ -32,7 +32,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
-    if @user.update(user_params)
+    if @user.update user_params
       flash[:success] = t ".successful_flash"
       redirect_to @user
     else
