@@ -1,4 +1,11 @@
 digit:
-  digit_255: 255
-  digit_6: 6
   digit_2: 2
+  digit_5: 5
+  digit_6: 6
+  digit_140: 140
+  digit_255: 255
+image:
+  max_size_mb: 5
+  accept_format: ["image/jpeg", "image/gif", "image/png"]
+  accept_format_html: "image/jpeg,image/gif,image/png"
+range_500: [500, 500]

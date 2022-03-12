@@ -11,6 +11,7 @@ vi:
     content: "Đây là trang chủ hướng dẫn Ruby on Rails."
     signup: "Đăng ký ngay! "
     title: "Trang chủ"
+    feed_title: "Bản tin mới"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -67,6 +68,11 @@ vi:
     error_messages:
       prefix: "Có %{err_suffix} trong biểu mẫu này."
       singular: "lỗi"
+    user_info:
+      view_profile: "Trang cá nhân"
+      post_singular: "bài"
+    micropost_form:
+      content_holder: "Khởi tạo micropost mới..."
   sessions:
     create:
       invalid_email_password_combination: "Sai email hoặc mật khẩu, vui lòng thử lại."
@@ -113,3 +119,17 @@ vi:
     new:
       title: "Quên mật khẩu"
       submit: "Xác nhận"
+  microposts:
+    invalid_img_type: "phải là ảnh đúng định dạng"
+    invalid_img_size: "nhỏ hơn 5MB"
+    create:
+      success: "Tạo thành công!"
+      failed: "Tạo Không thành công!"
+    destroy:
+      success: "Xoá thành công!"
+      failed: "Không xoá được, vui lòng thử lại!"
+    micropost:
+      btn: "Xoá"
+      delete_confirm: "Bạn có muốn xoá?"
+      posted_time: "Đã đăng %{time} trước."
+  file_size_exceed: "Tối đa là 5MB! Vui lòng chọn lại "
