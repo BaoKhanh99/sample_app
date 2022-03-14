@@ -3,6 +3,11 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include Pagy::Backend
 
+  def user_not_found
+    flash[:danger] = t "users.not_found"
+    redirect_to root_url
+  end
+
   private
 
   def set_locale

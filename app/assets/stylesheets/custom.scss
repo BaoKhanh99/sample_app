@@ -92,7 +92,7 @@ input {
 }
 
 .field_with_errors {
-@extend .has-error;
+  @extend .has-error;
   .form-control {
     color: darkred;
   }
@@ -101,10 +101,10 @@ input {
 .checkbox {
   margin-bottom: 10px;
   margin-top: 10px;
-span {
-  font-weight: normal;
-  margin-left: 20px;
-}
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
 }
 #session_remember_me {
   margin-left: 0;
@@ -152,14 +152,60 @@ span.picture {
   .content {
     display: block;
     margin-left: 60px;
-  img {
-    display: block;
-    padding: 5px 0;
-  }
+    img {
+      display: block;
+      padding: 5px 0;
+    }
   }
   .timestamp {
     color: $gray-light;
     display: block;
     margin-left: 60px;
   }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+  }
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid $gray-lighter;
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: blue;
+      background-color: whitesmoke;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+.users.follow {
+  padding: 0;
 }
